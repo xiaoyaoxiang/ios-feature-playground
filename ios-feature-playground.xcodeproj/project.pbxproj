@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		7E276C362F3DD09E009D09C6 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		7E9545DF2F3F120300690792 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
-		7ED3448B2F3B1B260055869D /* SnapNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED3448B2F3B1B260055869D /* ios-feature-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-feature-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED344992F3B1B5A0055869D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		7ED3449A2F3B1B5A0055869D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		7ED3449D2F3B1B5A0055869D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -30,12 +30,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7E276C422F3DD2DC009D09C6 /* Exceptions for "Profile" folder in "SnapNote" target */ = {
+		7E276C422F3DD2DC009D09C6 /* Exceptions for "Profile" folder in "ios-feature-playground" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				StatView.swift,
 			);
-			target = 7ED3448A2F3B1B260055869D /* SnapNote */;
+			target = 7ED3448A2F3B1B260055869D /* ios-feature-playground */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		7E276C382F3DD0D4009D09C6 /* Profile */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				7E276C422F3DD2DC009D09C6 /* Exceptions for "Profile" folder in "SnapNote" target */,
+				7E276C422F3DD2DC009D09C6 /* Exceptions for "Profile" folder in "ios-feature-playground" target */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -92,7 +92,7 @@
 		7ED3448C2F3B1B260055869D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7ED3448B2F3B1B260055869D /* SnapNote.app */,
+				7ED3448B2F3B1B260055869D /* ios-feature-playground.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7ED3448A2F3B1B260055869D /* SnapNote */ = {
+		7ED3448A2F3B1B260055869D /* ios-feature-playground */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7ED344962F3B1B280055869D /* Build configuration list for PBXNativeTarget "SnapNote" */;
+			buildConfigurationList = 7ED344962F3B1B280055869D /* Build configuration list for PBXNativeTarget "ios-feature-playground" */;
 			buildPhases = (
 				7ED344872F3B1B260055869D /* Sources */,
 				7ED344882F3B1B260055869D /* Frameworks */,
@@ -188,11 +188,11 @@
 				7E9545E52F3F129600690792 /* Service */,
 				7ED3448D2F3B1B260055869D /* SnapNote */,
 			);
-			name = SnapNote;
+			name = "ios-feature-playground";
 			packageProductDependencies = (
 			);
 			productName = SnapNote;
-			productReference = 7ED3448B2F3B1B260055869D /* SnapNote.app */;
+			productReference = 7ED3448B2F3B1B260055869D /* ios-feature-playground.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7ED344862F3B1B260055869D /* Build configuration list for PBXProject "SnapNote" */;
+			buildConfigurationList = 7ED344862F3B1B260055869D /* Build configuration list for PBXProject "ios-feature-playground" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -224,7 +224,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7ED3448A2F3B1B260055869D /* SnapNote */,
+				7ED3448A2F3B1B260055869D /* ios-feature-playground */,
 			);
 		};
 /* End PBXProject section */
@@ -446,7 +446,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7ED344862F3B1B260055869D /* Build configuration list for PBXProject "SnapNote" */ = {
+		7ED344862F3B1B260055869D /* Build configuration list for PBXProject "ios-feature-playground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ED344942F3B1B280055869D /* Debug */,
@@ -455,7 +455,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7ED344962F3B1B280055869D /* Build configuration list for PBXNativeTarget "SnapNote" */ = {
+		7ED344962F3B1B280055869D /* Build configuration list for PBXNativeTarget "ios-feature-playground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7ED344972F3B1B280055869D /* Debug */,
