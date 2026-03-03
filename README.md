@@ -4,6 +4,26 @@ A scalable iOS feature playground showcasing authentication, navigation flow, AI
 This project is designed for experimentation and iterative development of iOS app features with clean architecture.
 
 ---
+## 🚀 iOS Update (Latest)
+
+We’ve added several new iOS features to improve the user experience and interaction flow:
+
+✨ New Features
+
+- Waterfall Layout (Masonry Style Feed)
+Implemented a dynamic waterfall-style layout for content browsing. Items are arranged in a responsive multi-column grid with adaptive heights for better visual balance and engagement.
+
+- Detail View
+Each item now supports a dedicated detail page. Users can tap into content to view full information, including images, metadata, and related interactions.
+
+- Like Functionality
+Users can like content directly from both the feed and detail view. The like state updates instantly in the UI and syncs with the backend.
+
+- Comment System
+Added full comment support:
+View comment list in the detail page and Post new comments
+
+---
 
 ## 🚀 Current Features
 
