@@ -8,49 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		7E276C372F3DD0A3009D09C6 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E276C362F3DD09E009D09C6 /* Profile.swift */; };
+		7E5B46DE2F5685D000AAE01D /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B46DD2F5685CE00AAE01D /* FeedItem.swift */; };
+		7E5B46EF2F568C6300AAE01D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B46D12F56826A00AAE01D /* APIClient.swift */; };
+		7E5B46F02F568C8900AAE01D /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B46D22F56827800AAE01D /* Endpoint.swift */; };
+		7E5B46F22F56911A00AAE01D /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B46F12F56910D00AAE01D /* NetworkError.swift */; };
+		7E5B46F42F56917200AAE01D /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B46F32F56916E00AAE01D /* Comment.swift */; };
 		7E9545E02F3F120A00690792 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9545DF2F3F120300690792 /* Auth.swift */; };
 		7ED344A72F3B1B5A0055869D /* SnapItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED344A32F3B1B5A0055869D /* SnapItem.swift */; };
-		7ED344A82F3B1B5A0055869D /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3449F2F3B1B5A0055869D /* HomeViewModel.swift */; };
 		7ED344A92F3B1B5A0055869D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3449A2F3B1B5A0055869D /* CameraViewController.swift */; };
-		7ED344AA2F3B1B5A0055869D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3449D2F3B1B5A0055869D /* DetailView.swift */; };
 		7ED344AB2F3B1B5A0055869D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED344992F3B1B5A0055869D /* CameraView.swift */; };
-		7ED344AC2F3B1B5A0055869D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED3449E2F3B1B5A0055869D /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E276C362F3DD09E009D09C6 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		7E5B46D12F56826A00AAE01D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		7E5B46D22F56827800AAE01D /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		7E5B46D32F56828300AAE01D /* AuthInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInterceptor.swift; sourceTree = "<group>"; };
+		7E5B46DD2F5685CE00AAE01D /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		7E5B46F12F56910D00AAE01D /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		7E5B46F32F56916E00AAE01D /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		7E9545DF2F3F120300690792 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		7ED3448B2F3B1B260055869D /* ios-feature-playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-feature-playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED344992F3B1B5A0055869D /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		7ED3449A2F3B1B5A0055869D /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
-		7ED3449D2F3B1B5A0055869D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		7ED3449E2F3B1B5A0055869D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		7ED3449F2F3B1B5A0055869D /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		7ED344A32F3B1B5A0055869D /* SnapItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7E276C422F3DD2DC009D09C6 /* Exceptions for "Profile" folder in "ios-feature-playground" target */ = {
+		7E5B47022F56AE2500AAE01D /* Exceptions for "Presentation" folder in "ios-feature-playground" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				StatView.swift,
+				Profile/StatView.swift,
 			);
 			target = 7ED3448A2F3B1B260055869D /* ios-feature-playground */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7E276C382F3DD0D4009D09C6 /* Profile */ = {
+		7E5B46D42F5682B000AAE01D /* Persistence */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7E276C422F3DD2DC009D09C6 /* Exceptions for "Profile" folder in "ios-feature-playground" target */,
-			);
-			path = Profile;
+			path = Persistence;
 			sourceTree = "<group>";
 		};
-		7E9545E12F3F122600690792 /* Auth */ = {
+		7E5B46DF2F56868F00AAE01D /* Presentation */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Auth;
+			exceptions = (
+				7E5B47022F56AE2500AAE01D /* Exceptions for "Presentation" folder in "ios-feature-playground" target */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 		7E9545E52F3F129600690792 /* Service */ = {
@@ -76,13 +81,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E5B46ED2F568B5900AAE01D /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				7E5B46F12F56910D00AAE01D /* NetworkError.swift */,
+				7E5B46D32F56828300AAE01D /* AuthInterceptor.swift */,
+				7E5B46D22F56827800AAE01D /* Endpoint.swift */,
+				7E5B46D12F56826A00AAE01D /* APIClient.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
 		7ED344822F3B1B260055869D = {
 			isa = PBXGroup;
 			children = (
+				7E5B46ED2F568B5900AAE01D /* NetWork */,
+				7E5B46DF2F56868F00AAE01D /* Presentation */,
+				7E5B46D42F5682B000AAE01D /* Persistence */,
 				7E9545E52F3F129600690792 /* Service */,
 				7ED344A22F3B1B5A0055869D /* Feature */,
 				7ED344A42F3B1B5A0055869D /* Model */,
-				7ED344A52F3B1B5A0055869D /* Network */,
 				7ED344A62F3B1B5A0055869D /* Utils */,
 				7ED3448D2F3B1B260055869D /* SnapNote */,
 				7ED3448C2F3B1B260055869D /* Products */,
@@ -113,16 +131,6 @@
 			path = Detail;
 			sourceTree = "<group>";
 		};
-		7ED344A02F3B1B5A0055869D /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				7ED3449D2F3B1B5A0055869D /* DetailView.swift */,
-				7ED3449E2F3B1B5A0055869D /* HomeView.swift */,
-				7ED3449F2F3B1B5A0055869D /* HomeViewModel.swift */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
 		7ED344A12F3B1B5A0055869D /* Settings */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,11 +141,8 @@
 		7ED344A22F3B1B5A0055869D /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				7E9545E12F3F122600690792 /* Auth */,
-				7E276C382F3DD0D4009D09C6 /* Profile */,
 				7ED3449B2F3B1B5A0055869D /* Camera */,
 				7ED3449C2F3B1B5A0055869D /* Detail */,
-				7ED344A02F3B1B5A0055869D /* Home */,
 				7ED344A12F3B1B5A0055869D /* Settings */,
 			);
 			path = Feature;
@@ -146,18 +151,13 @@
 		7ED344A42F3B1B5A0055869D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7E5B46F32F56916E00AAE01D /* Comment.swift */,
+				7E5B46DD2F5685CE00AAE01D /* FeedItem.swift */,
 				7E9545DF2F3F120300690792 /* Auth.swift */,
 				7E276C362F3DD09E009D09C6 /* Profile.swift */,
 				7ED344A32F3B1B5A0055869D /* SnapItem.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		7ED344A52F3B1B5A0055869D /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
 			sourceTree = "<group>";
 		};
 		7ED344A62F3B1B5A0055869D /* Utils */ = {
@@ -183,8 +183,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7E276C382F3DD0D4009D09C6 /* Profile */,
-				7E9545E12F3F122600690792 /* Auth */,
+				7E5B46D42F5682B000AAE01D /* Persistence */,
+				7E5B46DF2F56868F00AAE01D /* Presentation */,
 				7E9545E52F3F129600690792 /* Service */,
 				7ED3448D2F3B1B260055869D /* SnapNote */,
 			);
@@ -244,13 +244,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5B46F42F56917200AAE01D /* Comment.swift in Sources */,
+				7E5B46EF2F568C6300AAE01D /* APIClient.swift in Sources */,
+				7E5B46F22F56911A00AAE01D /* NetworkError.swift in Sources */,
 				7ED344A72F3B1B5A0055869D /* SnapItem.swift in Sources */,
-				7ED344A82F3B1B5A0055869D /* HomeViewModel.swift in Sources */,
 				7ED344A92F3B1B5A0055869D /* CameraViewController.swift in Sources */,
-				7ED344AA2F3B1B5A0055869D /* DetailView.swift in Sources */,
+				7E5B46DE2F5685D000AAE01D /* FeedItem.swift in Sources */,
+				7E5B46F02F568C8900AAE01D /* Endpoint.swift in Sources */,
 				7ED344AB2F3B1B5A0055869D /* CameraView.swift in Sources */,
 				7E276C372F3DD0A3009D09C6 /* Profile.swift in Sources */,
-				7ED344AC2F3B1B5A0055869D /* HomeView.swift in Sources */,
 				7E9545E02F3F120A00690792 /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

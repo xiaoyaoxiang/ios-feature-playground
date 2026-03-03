@@ -11,10 +11,15 @@ struct MainTabView: View {
 
     var body: some View {
         TabView {
+            FeedView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("首页")
+                }
             HomeView() // 首页
                 .tabItem {
                     Image(systemName: "house")
-                    Text("首页")
+                    Text("列表")
                 }
 
             ProfileView()

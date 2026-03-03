@@ -28,7 +28,7 @@ class ProfileViewModel: ObservableObject {
 
     private func loadProfile() async {
 
-        guard let url = URL(string: "http://192.168.2.110:8082/profile") else { return }
+        guard let url = URL(string: "http://192.168.2.129:8082/profile") else { return }
 
         isLoading = true
         defer { isLoading = false }

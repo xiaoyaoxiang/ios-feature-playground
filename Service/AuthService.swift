@@ -11,7 +11,7 @@ class AuthService {
 
     func login(username: String, password: String) async throws -> AuthResponse {
 
-        let url = URL(string: "http://192.168.2.110:8082/login")!
+        let url = URL(string: "http://192.168.2.129:8082/login")!
 
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
